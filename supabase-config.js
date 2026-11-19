@@ -1,2 +1,4 @@
-// Configuration publique du frontend. Ne jamais placer la clé service_role ici.
-window.ELAKA_SUPABASE_CONFIG={url:"",publishableKey:""};
+window.SUPABASE_CONFIG = {
+  url: "https://ecyyxnuhmyaotegtalbh.supabase.co",
+  publishableKey: "sb_publishable_F-MAnBKNyfsXMcjY7exThg_HYwmVZeR"
+};
