@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#081c32">
+  <meta name="description" content="ELAKA SERVICES - Solutions de transport maritime et aérien, suivi de vos expéditions.">
+  <title>ELAKA SERVICES | Transport & Logistique</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #14263a;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #081c32;
+      padding: 16px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    header img { width: 175px; max-height: 65px; object-fit: contain; }
+
+    nav { display: flex; gap: 22px; flex-wrap: wrap; }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 510px;
+      padding: 85px 8%;
+      display: flex;
+      align-items: center;
+      color: white;
+      background:
+        linear-gradient(90deg, rgba(5,22,40,.95), rgba(5,22,40,.55)),
+        url("elaka-transport.jpg") center/cover no-repeat;
+    }
+
+    .hero-content { max-width: 650px; }
+
+    .eyebrow {
+      color: #45d5c3;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 65px);
+      line-height: 1.12;
+      margin: 18px 0;
+    }
+
+    .hero p { font-size: 17px; color: #e1e9f0; max-width: 550px; }
+
+    .actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 23px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #36c7b5;
+      color: #071d32;
+    }
+
+    .btn-outline {
+      border: 1px solid white;
+      color: white;
+      background: transparent;
+    }
+
+    section { padding: 75px 8%; }
+
+    .section-heading { max-width: 650px; margin-bottom: 35px; }
+
+    .section-heading h2 {
+      font-size: 34px;
+      color: #0a2038;
+      margin: 10px 0;
+    }
+
+    .section-heading p { color: #667789; }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .service {
+      border: 1px solid #e3eaf0;
+      border-radius: 10px;
+      padding: 28px;
+      background: #fff;
+    }
+
+    .service img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 7px;
+      margin-bottom: 18px;
+    }
+
+    .service h3 { color: #0a2038; margin-bottom: 9px; }
+    .service p { color: #667789; }
+
+    .about {
+      background: #f2f6f9;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+      align-items: center;
+    }
+
+    .about h2 { font-size: 34px; color: #0a2038; margin: 12px 0; }
+    .about p { color: #607286; }
+    .about img { width: 100%; border-radius: 10px; }
+
+    .tracking {
+      text-align: center;
+      background: #0b2742;
+      color: white;
+    }
+
+    .tracking h2 { font-size: 34px; margin-bottom: 12px; }
+    .tracking p { color: #d5e0e9; margin-bottom: 25px; }
+
+    .contact { text-align: center; }
+    .contact h2 { font-size: 32px; margin-bottom: 12px; }
+    .contact p { color: #667789; }
+
+    footer {
+      background: #071727;
+      color: #c4d0dc;
+      text-align: center;
+      padding: 25px 8%;
+      font-size: 13px;
+    }
+
+    @media (max-width: 700px) {
+      header { justify-content: center; }
+      nav { justify-content: center; gap: 14px; }
+      .hero { min-height: 470px; padding: 65px 7%; }
+      .services, .about { grid-template-columns: 1fr; }
+      section { padding: 55px 7%; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="accueil.html">
+    <img src="elaka-wordmark.jpg" alt="ELAKA SERVICES">
+  </a>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#entreprise">Entreprise</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="hero-content">
+      <span class="eyebrow">ELAKA SERVICES · TRANSPORT & LOGISTIQUE</span>
+      <h1>Vos marchandises.<br>Notre engagement.</h1>
+      <p>
+        Nous vous accompagnons dans vos opérations de transport maritime
+        et aérien avec un suivi clair de vos expéditions.
+      </p>
+      <div class="actions">
+        <a class="btn" href="index.html">Suivre un envoi</a>
+        <a class="btn btn-outline" href="#services">Nos services</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-heading">
+      <span class="eyebrow">NOS SOLUTIONS</span>
+      <h2>Le transport adapté à vos besoins</h2>
+      <p>Deux solutions pour accompagner l'acheminement de vos marchandises.</p>
+    </div>
+
+    <div class="services">
+      <article class="service">
+        <img src="elaka-transport.jpg" alt="Transport maritime">
+        <h3>Transport maritime</h3>
+        <p>Accompagnement et suivi de vos expéditions par conteneur.</p>
+      </article>
+
+      <article class="service">
+        <img src="elaka-transport.jpg" alt="Transport aérien">
+        <h3>Transport aérien</h3>
+        <p>Suivi de vos colis et de vos expéditions par voie aérienne.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="entreprise">
+    <div>
+      <span class="eyebrow">QUI SOMMES-NOUS ?</span>
+      <h2>Une logistique pensée pour vous.</h2>
+      <p>
+        ELAKA SERVICES accompagne ses clients dans le suivi et la gestion
+        de leurs expéditions. Notre priorité : rendre chaque étape plus
+        claire et faciliter l'accès aux informations de transport.
+      </p>
+    </div>
+    <img src="elaka-transport.jpg" alt="Les activités logistiques ELAKA SERVICES">
+  </section>
+
+  <section class="tracking">
+    <h2>Où se trouve votre expédition ?</h2>
+    <p>Accédez à votre espace de suivi à l'aide de votre numéro d'expédition.</p>
+    <a class="btn" href="index.html">Accéder au suivi</a>
+  </section>
+
+  <section class="contact" id="contact">
+    <span class="eyebrow">RESTONS EN CONTACT</span>
+    <h2>Votre projet commence ici.</h2>
+    <p>Contactez ELAKA SERVICES pour échanger sur vos besoins logistiques.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 ELAKA SERVICES — Tous droits réservés.</p>
+  <p>Transport maritime · Transport aérien · Suivi des expéditions</p>
+</footer>
+
+</body>
+</html>
